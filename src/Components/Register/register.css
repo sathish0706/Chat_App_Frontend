@@ -1,0 +1,12 @@
+.form-group{
+    width: 400px;
+    height: 100px;
+   
+    
+}
+.register-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    
+}

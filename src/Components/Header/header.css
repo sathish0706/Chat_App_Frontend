@@ -1,0 +1,16 @@
+.header{
+background-color: rgb(107, 182, 113);
+height: 70px;
+color: white;
+}
+
+.header-button{
+   margin-left: 1300px;
+   margin-top: 15px;
+}
+.header-2{
+    display: flex;
+    align-items: center;
+   
+
+}
