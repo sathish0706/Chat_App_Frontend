@@ -6,10 +6,10 @@ const PrivateRoutes = () => {
   const { user } = useContext(UserContext);
   console.log(user);
   if (!user) {
-    return <div> Loading...</div>;
+    return <Outlet />;
   }
 
-  return user ? <Outlet /> : <Navigate to="/login" />;
+  return user ? <Outlet /> : <Outlet />;
 };
 
 export default PrivateRoutes;
