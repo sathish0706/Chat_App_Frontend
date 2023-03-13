@@ -13,7 +13,7 @@ import ResetPassword from "./Components/ResetPassword";
 import { Route, Routes } from "react-router-dom";
 import ForgotPassword from "./Components/ForgotPassword";
 
-const socket = io.connect("https://chat-app-backend-1l49.onrender.com/api");
+const socket = io.connect("https://chat-app-backend-1l49.onrender.com");
 
 function App() {
   const [user, setUser, loading] = UseFindUser();
